@@ -1,0 +1,11 @@
+body {
+  background-image: url("../images/planks_birch.png");
+}
+
+table {
+  background-color: white;
+}
+
+#home::first-letter {
+  font-size: x-large;
+}

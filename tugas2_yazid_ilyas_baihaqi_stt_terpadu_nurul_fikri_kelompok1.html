@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form">
+      <table align="center">
+        <thead>
+          <tr style="background-color: gray">
+            <th colspan="2">Form Register Produk</th>
+          </tr>
+        </thead>
+        <tfoot style="background-color: gray" align="center">
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="kirim" />
+              <input type="button" value="batal" />
+            </td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td><label>Nama Produk</label></td>
+            <td><input name="nama_produk" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Jenis Produk</label></td>
+            <td>
+              <select name="jenis">
+                <option selected>--Kategori Produk--</option>
+                <option value="a">a</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Harga</label></td>
+            <td><input type="number" name="harga" /></td>
+          </tr>
+          <tr>
+            <td><label>Stok</label></td>
+            <td><input type="number" name="stok" /></td>
+          </tr>
+          <tr>
+            <td><label>Photo</label></td>
+            <td><input type="text" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="form">
+      <table align="center">
+        <thead>
+          <tr style="background-color: gray">
+            <th colspan="2">Form Register Member</th>
+          </tr>
+        </thead>
+        <tfoot style="background-color: gray" align="center">
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="masuk" />
+              <input type="button" value="batal" />
+            </td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td><label>Username</label></td>
+            <td><input name="username" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Password</label></td>
+            <td><input name="password" type="password" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

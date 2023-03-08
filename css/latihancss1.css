@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+}
+
+div.main {
+  width: 80%;
+  float: left;
+}
+
+div.iklan {
+  width: 20%;
+  float: right;
+  margin-top: 20px;
+}
+
+@font-face {
+  font-family: custom;
+  src: url("../fonts/hussar-bold-web-edition-font/misc/HussarBoldWeb-bf92.woff");
+}
+
+ol {
+  list-style-image: url("../images/rod.png");
+}
+
+ul {
+  list-style-image: url("../images/popeye.png");
+}
+
+li.makanan {
+  list-style-image: url("../images/spoon.png");
+}
+
+p#home {
+  font-family: custom;
+}
